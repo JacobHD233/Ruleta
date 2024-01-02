@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruleta App</title>
+</head>
+<body>
+<canvas></canvas>
+<div id="container">
+    <div class="vertical-text left">
+        <div class="letter">L</div>
+        <div class="letter">O</div>
+        <div class="letter">V</div>
+        <div class="letter">E</div>
+    </div>
+    
+    <div class="vertical-text right">
+        <div class="letter">S</div>
+        <div class="letter">E</div>
+        <div class="letter">X</div>
+    </div>
+    
+    <div id="menu" class="content">
+        <h1>Welcome to The Sex Games</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="usuario">User:</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena">Pasword:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <button type="submit" onclick="iniciarSesion(event)">A coger</button>
+        </form>
+    </div>
+        <div id="ruleta" class="content" style="display: none;">
+            <h2>Que comience el sexo</h2>
+            <div id="resultado"></div>
+            <div class="button-container">
+                <button onclick="girarRuleta()">¡Meraki!</button>
+                <button onclick="regresarMenu()">¡Otro Round!</button>
+            </div>
+        </div>
+    </di>
+
+    <script src="script.js"></script>
+</body>
+</html>
