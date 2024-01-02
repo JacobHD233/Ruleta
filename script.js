@@ -41,7 +41,7 @@ const opciones = [
     "opcion_(36).jpeg", "opcion_(37).jpeg", "opcion_(38).jpeg", "opcion_(39).jpeg", "opcion_(40).jpeg",
     "opcion_(41).jpeg", "opcion_(42).jpeg", "opcion_(43).jpeg", "opcion_(44).jpeg", "opcion_(45).jpeg",
     "opcion_(46).jpeg", "opcion_(47).jpeg", "opcion_(48).jpeg", "opcion_(49).jpeg", "opcion_(50).jpg",
-    "opcion_(51).jpg", "opcion_(52).jpg", "comodin(1).jpeg", "comodin(2).jpeg", "comodin(3).jpeg"
+    "opcion_(51).jpg", "opcion_(52).jpg", "comodin(1).jpeg", "comodin(2).jpeg", "comodin(3).jpeg", "chupeton.jpg", "chupeton1.jpg", "chupeton2.jpg", "chupeton3.jpg"
 ];
 
 let opcionesRestantes = [...opciones]; // Copia de las opciones para no modificar la original
